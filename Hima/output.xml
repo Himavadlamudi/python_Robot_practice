@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-21T11:15:25.946604" rpa="false" schemaversion="5">
+<suite id="s1" name="Hima" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima">
+<suite id="s1-s1" name="RobotDemo" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\RobotDemo">
+<suite id="s1-s1-s1" name="TC11 keywords" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\RobotDemo\TC11_keywords.robot">
+<test id="s1-s1-s1-t1" name="TC11" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-21T11:15:26.243170" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>${url}</arg>
+<arg>${bName}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-21T11:15:26.242877" elapsed="45.003439"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-01-21T11:16:11.247455" elapsed="0.027852"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:13.276667" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:11.275803" elapsed="2.001242"/>
+</kw>
+<kw name="Get Locations" owner="SeleniumLibrary">
+<msg time="2025-01-21T11:16:13.359597" level="INFO">Altogether 1 item.
+1: https://www.google.com/</msg>
+<msg time="2025-01-21T11:16:13.359869" level="INFO">${loc} = ['https://www.google.com/']</msg>
+<var>${loc}</var>
+<doc>Returns and logs URLs of all windows of the selected browser.</doc>
+<status status="PASS" start="2025-01-21T11:16:13.278357" elapsed="0.081582"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-21T11:16:13.360582" elapsed="0.000453"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:15.362823" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:13.361496" elapsed="2.001749"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-01-21T11:16:15.365515" level="INFO">Opening url 'https://terralogic.paxanimi.ai/login'</msg>
+<arg>${url1}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-01-21T11:16:15.364732" elapsed="26.089215"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:43.455768" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:41.454585" elapsed="2.001542"/>
+</kw>
+<kw name="Get Locations" owner="SeleniumLibrary">
+<msg time="2025-01-21T11:16:43.556714" level="INFO">Altogether 1 item.
+1: https://terralogic.paxanimi.ai/login</msg>
+<msg time="2025-01-21T11:16:43.556874" level="INFO">${loc1} = ['https://terralogic.paxanimi.ai/login']</msg>
+<var>${loc1}</var>
+<doc>Returns and logs URLs of all windows of the selected browser.</doc>
+<status status="PASS" start="2025-01-21T11:16:43.457526" elapsed="0.099389"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${loc1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-21T11:16:43.557336" elapsed="0.000255"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:45.558883" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:43.557844" elapsed="2.001501"/>
+</kw>
+<kw name="Go Back" owner="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" start="2025-01-21T11:16:45.560987" elapsed="0.054506"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:47.616947" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:45.616009" elapsed="2.001378"/>
+</kw>
+<kw name="Get Locations" owner="SeleniumLibrary">
+<msg time="2025-01-21T11:16:47.696676" level="INFO">Altogether 1 item.
+1: https://www.google.com/</msg>
+<msg time="2025-01-21T11:16:47.697489" level="INFO">${loc2} = ['https://www.google.com/']</msg>
+<var>${loc2}</var>
+<doc>Returns and logs URLs of all windows of the selected browser.</doc>
+<status status="PASS" start="2025-01-21T11:16:47.619188" elapsed="0.078609"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-21T11:16:49.700884" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-21T11:16:47.699507" elapsed="2.001828"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-01-21T11:16:49.702834" elapsed="2.245317"/>
+</kw>
+<status status="PASS" start="2025-01-21T11:15:26.241889" elapsed="85.707225"/>
+</test>
+<status status="PASS" start="2025-01-21T11:15:25.979706" elapsed="85.971432"/>
+</suite>
+<status status="PASS" start="2025-01-21T11:15:25.978046" elapsed="85.975579"/>
+</suite>
+<status status="PASS" start="2025-01-21T11:15:25.948239" elapsed="86.008298"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Hima" id="s1" pass="1" fail="0" skip="0">Hima</stat>
+<stat name="RobotDemo" id="s1-s1" pass="1" fail="0" skip="0">Hima.RobotDemo</stat>
+<stat name="TC11 keywords" id="s1-s1-s1" pass="1" fail="0" skip="0">Hima.RobotDemo.TC11 keywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
