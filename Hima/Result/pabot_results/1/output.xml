@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on win32)" generated="2025-01-23T13:46:09.632588" rpa="false" schemaversion="5">
+<suite id="s1" name="TagsDemo" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\TagsDemo">
+<suite id="s1-s1" name="TC02 tagsDemo" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\TagsDemo\TC02_tagsDemo.robot">
+<test id="s1-s1-t1" name="TC04" line="2">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Payment</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.681534" elapsed="0.000318"/>
+</kw>
+<tag>Sanity</tag>
+<status status="PASS" start="2025-01-23T13:46:09.680776" elapsed="0.001246"/>
+</test>
+<test id="s1-s1-t2" name="TC05" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>OTP</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.682822" elapsed="0.000269"/>
+</kw>
+<tag>Regression</tag>
+<status status="PASS" start="2025-01-23T13:46:09.682326" elapsed="0.000906"/>
+</test>
+<test id="s1-s1-t3" name="TC06" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Summery</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.683714" elapsed="0.000212"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-23T13:46:09.683452" elapsed="0.000591"/>
+</test>
+<status status="PASS" start="2025-01-23T13:46:09.679121" elapsed="0.005275"/>
+</suite>
+<status status="PASS" start="2025-01-23T13:46:09.657304" elapsed="0.027602"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Sanity</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TagsDemo">TagsDemo</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="TC02 tagsDemo">TagsDemo.TC02 tagsDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

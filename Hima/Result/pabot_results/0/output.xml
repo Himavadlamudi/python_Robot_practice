@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on win32)" generated="2025-01-23T13:46:09.630689" rpa="false" schemaversion="5">
+<suite id="s1" name="TagsDemo" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\TagsDemo">
+<suite id="s1-s1" name="TC01 tags" source="C:\Users\Hima Bindu-2574\PycharmProjects\Hima\TagsDemo\TC01_tags.robot">
+<test id="s1-s1-t1" name="TC01" line="2">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Loggin application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.681160" elapsed="0.000338"/>
+</kw>
+<tag>Sanity</tag>
+<status status="PASS" start="2025-01-23T13:46:09.680417" elapsed="0.001257"/>
+</test>
+<test id="s1-s1-t2" name="TC02" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logout application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.682463" elapsed="0.000309"/>
+</kw>
+<tag>Regression</tag>
+<status status="PASS" start="2025-01-23T13:46:09.681941" elapsed="0.000975"/>
+</test>
+<test id="s1-s1-t3" name="TC03" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Add user application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-23T13:46:09.683394" elapsed="0.000220"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" start="2025-01-23T13:46:09.683133" elapsed="0.000598"/>
+</test>
+<status status="PASS" start="2025-01-23T13:46:09.678822" elapsed="0.005255"/>
+</suite>
+<status status="PASS" start="2025-01-23T13:46:09.656975" elapsed="0.027606"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Sanity</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TagsDemo">TagsDemo</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="TC01 tags">TagsDemo.TC01 tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
