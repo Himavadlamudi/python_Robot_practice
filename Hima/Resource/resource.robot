@@ -7,5 +7,5 @@ withoutargument
     Open Browser    ${url}    ${bName}
     Maximize Browser Window
     ${title}    Get Title
-    [Return]    ${title}
+    RETURN    ${title}
     Sleep    2
